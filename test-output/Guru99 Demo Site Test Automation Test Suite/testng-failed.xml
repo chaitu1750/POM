@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru99 Demo Site Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.pilotproject.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="DemoSite Test Cases(failed)">
+    <classes>
+      <class name="com.pilotproject.testcases.HomePageTest">
+        <methods>
+          <include name="verifyContactsLinkTest"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pilotproject.testcases.HomePageTest -->
+      <class name="com.pilotproject.testcases.NewCustomerPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validatecreateNewCustomer"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pilotproject.testcases.NewCustomerPageTest -->
+      <class name="com.pilotproject.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.pilotproject.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- DemoSite Test Cases(failed) -->
+</suite> <!-- Failed suite [Guru99 Demo Site Test Automation Test Suite] -->

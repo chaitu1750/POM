@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99 Demo Site Test Automation Test Suite">
+
+
+<listeners>
+		<listener class-name="com.pilotproject.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="DemoSite Test Cases">
+		<classes>
+		
+			<class name="com.pilotproject.testcases.LoginPageTest"></class>
+			<class name="com.pilotproject.testcases.HomePageTest"></class>
+			<class name="com.pilotproject.testcases.NewCustomerPageTest"></class>
+
+		</classes>
+	</test>
+</suite>
